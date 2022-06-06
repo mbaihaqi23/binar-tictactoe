@@ -32,7 +32,7 @@ startGame();
 
 resetButton.onclick = startGame;
 resetButton.addEventListener("click", () => {
-  boxElements.forEach(function (box)s {
+  boxElements.forEach(function (box) {
       box.classList.remove("cross", "circle");
     });
  });
